@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- কেন্দ্রে পৃথিবীর গোলাকার আকৃতি -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,10 A44,44 0 1,1 53.9,10z" />
+
+    <!-- পৃথিবীর জলের অংশ -->
+    <path
+        android:fillColor="#48CAE4"
+        android:pathData="M54,12 A42,42 0 1,1 53.8,12z" />
+
+    <!-- পৃথিবীর স্থলভাগ -->
+    <path
+        android:fillColor="#007F5F"
+        android:pathData="M44,40 C45,38 46,36 48,35 L52,30 C56,32 60,33 63,37 C61,41 58,43 54,44 C50,44 47,42 44,40z" />
+    <path
+        android:fillColor="#007F5F"
+        android:pathData="M64,55 C66,53 68,52 70,53 L74,56 C72,59 70,60 67,62 C65,61 64,59 64,55z" />
+
+    <!-- স্টাইলিশ ‘B’ -->
+    <text
+        android:fillColor="#03045E"
+        android:fontSize="40"
+        android:fontWeight="bold"
+        android:fontFamily="sans-serif"
+        android:text="B"
+        android:x="40"
+        android:y="70" />
+
+    <!-- আলোর শিখা (আকাশী রঙে পরিবর্তিত) -->
+    <path
+        android:fillColor="#90E0EF"
+        android:pathData="M54,28 C60,36 58,46 54,52 C50,46 48,36 54,28z" />
+</vector>
